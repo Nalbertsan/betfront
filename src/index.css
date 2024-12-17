@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-tabs .ant-tabs-tab-btn {
+  color: white !important; /* Define o texto das abas como branco */
+  font-size: 1.25rem; /* Aumenta o tamanho do texto */
+  font-weight: bold; /* Deixa o texto em negrito */
+}
+
+.custom-tabs .ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #ffffff !important; /* Cor branca também para a aba ativa */
+}
+
+.custom-tabs .ant-tabs-tab:hover .ant-tabs-tab-btn {
+  color: #b3e5fc !important; /* Cor do texto ao passar o mouse */
+}
